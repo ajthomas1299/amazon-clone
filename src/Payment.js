@@ -57,7 +57,7 @@ function Payment() {
 
     // TEST
     //console.log('THE SECRET IS: ', clientSecret);
-    //console.log('PERSON: ', user);
+    console.log('PERSON: ', user);
 
 
     //
