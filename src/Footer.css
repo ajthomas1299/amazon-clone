@@ -1,0 +1,36 @@
+.footer {
+    color: lightgrey;
+    background-color: #232f3e;
+}
+
+.back__totop {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #37475a;
+}
+
+.back__totop a {
+    color: lightgrey;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer__links {
+    height: 300px;
+    color: lightgrey;
+    background-color: #232f3e;
+    
+}
+
+.footer__logo__container {
+    border-top: thin solid lightgray #37475a;
+}
+
+.footer__logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #232f3e;
+    padding: 20px;
+}

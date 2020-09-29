@@ -1,0 +1,73 @@
+/* PRODUCT.CSS */
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    max-height: 400px;
+    min-width: 100px;
+    background-color: white;
+    z-index: 1;
+    border-radius: 12px;
+    box-shadow: 0, 0, 8px, -4px, rgba(0,0,0, 0.5);
+}
+
+.product {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.25s ease;
+  overflow: hidden;
+}
+
+.product__title {
+    font-size: large;
+    font-weight: 600;
+}
+
+
+.product__rating {
+    display: flex;
+    /* margin-bottom: 155px; */
+}
+
+.product > img {
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+    
+    
+}
+
+.product > button {
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    transition: all 0.25s ease;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+.product > button:hover {
+    transform: translate3d(0, -5px, 0);
+}
+
+.product > button:focus {
+    outline: none;
+}
+
+.product__info {
+    width: 98%;
+    height: 100px;
+    margin-bottom: 15px;
+}
